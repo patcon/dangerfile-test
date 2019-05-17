@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/MatMoore/danger-vale
+  revision: 712c7f74811b31209096caeb567c743a506c4ecc
+  specs:
+    danger-vale (0.0.1)
+      danger-plugin-api (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -24,8 +31,8 @@ GEM
       no_proxy_fix
       octokit (~> 4.7)
       terminal-table (~> 1)
-    danger-prose (2.0.7)
-      danger
+    danger-plugin-api (1.0.0)
+      danger (> 2.0)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     faraday-http-cache (2.0.0)
@@ -52,7 +59,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  danger-prose
+  danger-vale!
 
 BUNDLED WITH
    1.16.1
