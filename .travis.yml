@@ -1,1 +1,3 @@
-before_script: bundle exec danger
+language: ruby
+
+script: bundle exec danger
