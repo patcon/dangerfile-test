@@ -1,0 +1,1 @@
+vale.lint_files
